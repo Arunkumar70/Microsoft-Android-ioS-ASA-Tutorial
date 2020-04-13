@@ -956,6 +956,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2053986285137871049, guid: eee6a024b4a153e48b88665b46a6c40a,
+        type: 3}
+      propertyPath: spatialAnchorsAccountId
+      value: 8d52cf23-e6ce-481c-9879-a66ed7d8084d
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053986285137871049, guid: eee6a024b4a153e48b88665b46a6c40a,
+        type: 3}
+      propertyPath: spatialAnchorsAccountKey
+      value: /wMwCso9PMHkN6kj5KcCY+yLtSC7JJkvM4HqkuSvSZw=
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eee6a024b4a153e48b88665b46a6c40a, type: 3}
 --- !u!1 &923082063 stripped
