@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../../build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../../build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32" Condition="'$(Platform.ToLower())' == 'win32'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../../build/native/lib/Win32/Release/AzureSpatialAnchors.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64" Condition="'$(Platform.ToLower())' == 'x64'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../../build/native/lib/x64/Release/AzureSpatialAnchors.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="ARM" Condition="'$(Platform.ToLower())' == 'arm'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../../build/native/lib/ARM/Release/AzureSpatialAnchors.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="ARM64" Condition="'$(Platform.ToLower())' == 'arm64'">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../../build/native/lib/ARM64/Release/AzureSpatialAnchors.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>
