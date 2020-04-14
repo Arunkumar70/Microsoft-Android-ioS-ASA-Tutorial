@@ -350,12 +350,12 @@ PrefabInstance:
     - target: {fileID: 2053986285137871049, guid: eee6a024b4a153e48b88665b46a6c40a,
         type: 3}
       propertyPath: spatialAnchorsAccountId
-      value: 8d52cf23-e6ce-481c-9879-a66ed7d8084d
+      value: b863c64a-be36-41d0-8388-84a3516c8680
       objectReference: {fileID: 0}
     - target: {fileID: 2053986285137871049, guid: eee6a024b4a153e48b88665b46a6c40a,
         type: 3}
       propertyPath: spatialAnchorsAccountKey
-      value: /wMwCso9PMHkN6kj5KcCY+yLtSC7JJkvM4HqkuSvSZw=
+      value: pB1JCO2ZBP4i9ccmKq2HG4i3od+B5E7NjLMuMxVUZI8=pB1JCO2ZBP4i9ccmKq2HG4i3od+B5E7NjLMuMxVUZI8=
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eee6a024b4a153e48b88665b46a6c40a, type: 3}
