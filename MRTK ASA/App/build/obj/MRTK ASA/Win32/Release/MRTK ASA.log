@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+C:\Users\Veeruby Technology\Documents\GitHub\Microsoft-Android-ioS-ASA-Tutorial\MRTK ASA\App\MRTK ASA\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+C:\Users\Veeruby Technology\Documents\GitHub\Microsoft-Android-ioS-ASA-Tutorial\MRTK ASA\App\MRTK ASA\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 160 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MRTK ASA.vcxproj -> C:\Users\Veeruby Technology\Documents\GitHub\Microsoft-Android-ioS-ASA-Tutorial\MRTK ASA\App\build\bin\Win32\Release\MRTK ASA.exe
+  MRTK ASA -> C:\Users\Veeruby Technology\Documents\GitHub\Microsoft-Android-ioS-ASA-Tutorial\MRTK ASA\App\AppPackages\MRTK ASA\MRTK ASA_1.0.0.0_Win32_Test\MRTK ASA_1.0.0.0_Win32.appx
+  MRTK ASA -> C:\Users\Veeruby Technology\Documents\GitHub\Microsoft-Android-ioS-ASA-Tutorial\MRTK ASA\App\build\obj\MRTK ASA\Win32\Release\Symbols\MRTK ASA_1.0.0.0_Win32.appxsym
